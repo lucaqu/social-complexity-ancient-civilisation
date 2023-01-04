@@ -6,7 +6,9 @@ Social complexity in ancient civilisations
 
 README file with instructions to successfully run the code 
 
-(1) At the beginning, download and import the data used in this project. 
+(1) Data
+
+At the beginning, download and import the data used in this project. 
 
 #download the social complexity data set which can be obtained from the SESHAT database, and it is also available on "Kaggle")
 data set from "SESHAT data base": http://seshatdatabank.info/datasets/social-complexity-dataset/
@@ -15,7 +17,9 @@ data set from "Kaggle": https://www.kaggle.com/datasets/usharengaraju/social-com
 #read the data set into a notebook in the Jupyter Lab interface (version 2.1.5) for Python 
 social = pd.read_csv(SocialComplexity3.csv")
 
-(2) Then import libraries needed for data exploration. 
+(2) Libraries
+
+Then import libraries needed for data exploration. 
 
 #import pandas, a data analysis and manipulation tool
 import pandas as pd
@@ -25,6 +29,14 @@ import matplotlib.pyplot as plt
 
 #import seaborn, a library for data visualisation based on matplotlib
 import seaborn as sns
+
+#import the following libraries for the Principal Components Analysis 
+from sklearn import decomposition
+from sklearn import datasets
+from sklearn.preprocessing import scale
+from sklearn.preprocessing import StandardScaler
+import numpy as np
+from pandas import DataFrame
 
 (3) Follow the code chronologically to create figures for data visualisation. The code generates six figures that depict different aspects of the data. 
 
