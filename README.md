@@ -11,7 +11,7 @@ data set from SESHAT data base: http://seshatdatabank.info/datasets/social-compl
 data set Kaggle: https://www.kaggle.com/datasets/usharengaraju/social-complexity-dataset-ancient-civilization 
 
 #read the data set into the Jupyter Notebook
-social = pd.read_csv(r"C:/Users/lucah/SWBio_Data_Science/SocialComplexity3.csv")
+social = pd.read_csv(SocialComplexity3.csv")
 
 (2) Then import libraries needed for data exploration. 
 
