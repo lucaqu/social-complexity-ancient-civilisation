@@ -4,7 +4,7 @@ Social complexity in ancient civilisations
 
 ![image](https://user-images.githubusercontent.com/110464445/210548477-6e2e429a-2acd-4f11-a1cf-780f2a07ab67.png)
 
-README file with instructions
+README file with instructions to successfully run the code 
 
 (1) At the beginning, download and import the data used in this project. 
 
