@@ -30,6 +30,12 @@ import matplotlib.pyplot as plt
 #import seaborn, a library for data visualisation based on matplotlib
 import seaborn as sns
 
+#import requests for importing the data set from GitHub 
+import requests
+
+#import io for importing the data set from GitHub
+import io
+
 #import the following libraries for the Principal Components Analysis 
 from sklearn import decomposition
 from sklearn import datasets
